@@ -169,15 +169,6 @@ class _DesktopLayoutState extends State<DesktopLayout> {
           )
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.add),
-        onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => const RollingLogoPage()),
-          );
-        },
-      ),
     );
   }
 }

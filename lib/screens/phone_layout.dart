@@ -116,7 +116,7 @@ class _PhoneLayoutState extends State<PhoneLayout> {
                 child: RollPanel(),
               ),
               const Expanded(
-                flex: 4,
+                flex: 3,
                 child: ChartPanel(),
               ),
             ],
