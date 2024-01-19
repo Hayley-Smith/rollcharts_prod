@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:rollcharts_prod/components/text_with_links.dart';
 
 import '../main.dart';
 
@@ -40,8 +41,8 @@ class LandingPage extends StatelessWidget {
                       fit: BoxFit.fitWidth),
                 ),
               ),
-              Card(
-                child: const Padding(
+              const Card(
+                child: Padding(
                   padding: EdgeInsets.all(18.0),
                   child: Text(
                       "RollCharts is a collection of random tables for tabletop RPG players and game masters. Search for a chart, tap for inspiration and tell your story.",
@@ -75,17 +76,7 @@ class LandingPage extends StatelessWidget {
                   ),
                 ),
               ),
-              const Padding(
-                padding: EdgeInsets.all(18.0),
-                child: Text(
-                    "This is a collection of random tables originally posted to /r/BehindTheTables and /r/DnDBehindTheScreen, compiled by OrkishBlade. Site design and development by Hayley Smith. ",
-                    softWrap: true,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Colors.white,
-                    )),
-              ),
+              const TextWithLinks(),
             ],
           ),
         ),

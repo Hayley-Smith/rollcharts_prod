@@ -17,6 +17,7 @@ dependencies:
   firebase_core: ^2.24.2
   responsive_builder: ^0.7.0
   cloud_firestore: ^4.14.0
+  url_launcher: ^6.2.3
 
 dev_dependencies:
   flutter_test:
