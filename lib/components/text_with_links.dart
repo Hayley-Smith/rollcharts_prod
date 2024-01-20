@@ -29,12 +29,12 @@ class TextWithLinks extends StatelessWidget {
           children: <TextSpan>[
             const TextSpan(
               text: 'This is a collection of random tables originally posted to ',
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.black),
             ),
             TextSpan(
               text: '/r/BehindTheTables and /r/BehindTheScreen',
               style: const TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 decoration: TextDecoration.underline,
               ),
               recognizer: TapGestureRecognizer()
@@ -45,12 +45,12 @@ class TextWithLinks extends StatelessWidget {
             ),
             const TextSpan(
               text: ', and compiled by',
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.black),
             ),
             TextSpan(
               text: '/r/OrkishBlade.',
               style: const TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 decoration: TextDecoration.underline,
               ),
               recognizer: TapGestureRecognizer()
@@ -61,12 +61,12 @@ class TextWithLinks extends StatelessWidget {
             ),
             const TextSpan(
               text: 'Website design and development by',
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.black),
             ),
             TextSpan(
               text: ' Hayley Smith',
               style: const TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 decoration: TextDecoration.underline,
               ),
               recognizer: TapGestureRecognizer()

@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
             onSecondary: Colors.black,
             error: Colors.red,
             onError: Colors.black,
-            background: Color.fromRGBO(172, 205, 181, 1),
+            background: Colors.white,
             onBackground: Colors.black,
             surface: Color.fromRGBO(172, 205, 181, 40),
             onSurface: Colors.black,

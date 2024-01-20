@@ -35,7 +35,7 @@ class _TabletLayoutState extends State<TabletLayout> {
             decoration: const BoxDecoration(
               //borderRadius: BorderRadius.circular(25),
               image: DecorationImage(
-                image: AssetImage('assets/farmland.jpeg'),
+                image: AssetImage('assets/rctablet.png'),
                 fit: BoxFit.cover,
               ),
             ),

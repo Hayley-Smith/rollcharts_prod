@@ -38,8 +38,8 @@ class _PhoneLayoutState extends State<PhoneLayout> {
             decoration: const BoxDecoration(
               //borderRadius: BorderRadius.circular(25),
               image: DecorationImage(
-                image: AssetImage('assets/farmland.jpeg'),
-                fit: BoxFit.cover,
+                image: AssetImage('assets/rcphonebg.png'),
+                fit: BoxFit.fitWidth,
               ),
             ),
           ),

@@ -48,7 +48,7 @@ class _DesktopLayoutState extends State<DesktopLayout> {
             decoration: const BoxDecoration(
               //borderRadius: BorderRadius.circular(25),
               image: DecorationImage(
-                image: AssetImage('assets/farmland.jpeg'),
+                image: AssetImage('assets/rcdesktop.png'),
                 fit: BoxFit.cover,
               ),
             ),
